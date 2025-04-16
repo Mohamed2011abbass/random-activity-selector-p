@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>What should I do?</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>What should I do?</h1>
+      <p>Click the button to find out!</p>
+
+      <button id="suggestBtn" onclick="suggeatBtn()">
+        Suggest an Activity
+      </button>
+      <div class="add-section">
+        <input type="text" id="newActivity" placeholder="Add a new activity" />
+        <button id="addBtn" onclick="addBnt()">Add</button>
+      </div>
+
+      <div class="activity-display" id="activityDisplay"></div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
